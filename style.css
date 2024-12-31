@@ -37,10 +37,10 @@ header {
   transition: all 0.42s;
 }
 .navbar a:hover {
-  color: greenyellow;
+  color: rgb(76, 88, 91);
 }
 .navbar .active {
-  color: greenyellow;
+  color: rgb(76, 88, 91);
 }
 .header-btn {
   display: flex;
@@ -54,7 +54,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: greenyellow;
+  background: rgb(76, 88, 91);
   color: white;
   font-size: 19px;
   text-transform: capitalize;
@@ -124,7 +124,7 @@ section {
   margin-bottom: 20px;
 }
 .home-text h3 span {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
 }
 
 .home-text p {
@@ -136,7 +136,7 @@ section {
   margin-bottom: 30px;
 }
 .home-icon i {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
   font-size: 22px;
   margin-right: 10px;
   padding: 5px;
@@ -144,13 +144,13 @@ section {
   align-items: center;
   width: 40px;
   height: 40px;
-  border: 2px solid greenyellow;
+  border: 2px solid rgb(76, 88, 91);
   border-radius: 30px;
   margin-bottom: 40px;
   transition: all 0.42s;
 }
 .home-icon i:hover {
-  background-color: greenyellow;
+  background-color: rgb(76, 88, 91);
   color: white;
 }
 
@@ -171,8 +171,8 @@ section {
   color: white;
   font-size: 20px;
   font-weight: 700;
-  border: 2px solid greenyellow;
-  background-color: greenyellow;
+  border: 2px solid rgb(76, 88, 91);
+  background-color: rgb(55, 175, 225);
   padding: 8px 25px;
   border-radius: 50px;
   transition: all 0.42s;
@@ -188,7 +188,7 @@ section {
   overflow: hidden;
   white-space: nowrap;
   padding: 20px 0px;
-  background: linear-gradient(0deg, greenyellow 0%, rgb(73, 119, 3) 100%);
+  background: linear-gradient(0deg, black 0%, rgb(55, 175, 225) 100%);
 }
 .infinite:hover .infi-logo {
   animation-play-state: paused;
@@ -224,7 +224,7 @@ header.sticky {
 
 /* about section css */
 .about {
-  background-color: rgb(2, 36, 2);
+  background: radial-gradient(rgb(55, 175, 225), black);
 }
 .main-about {
   display: grid;
@@ -238,7 +238,7 @@ header.sticky {
 }
 
 .about-text h5 {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
   font-size: 22px;
   text-transform: capitalize;
   font-weight: 500;
@@ -253,7 +253,7 @@ header.sticky {
   line-height: 1.4;
 }
 .about-text h2 span {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
 }
 
 .about-text p {
@@ -281,14 +281,14 @@ header.sticky {
   margin: 20px 0px;
 }
 .about-li h6 i {
-  color: greenyellow;
+  color: rgb(76, 88, 91);
   font-size: 20px;
   margin-right: 10px;
 }
 
 /* expert area css */
 .areas {
-  background-color: rgb(2, 36, 2);
+  background: radial-gradient(rgb(55, 175, 225), black);
 }
 .areas-top h1 {
   color: white;
@@ -328,7 +328,7 @@ header.sticky {
   filter: none;
   text-align: center;
   padding: 30px 50px;
-  background: rgb(1, 24, 1);
+  background: rgb(76, 88, 91);
   border-radius: 15px;
   box-shadow: rgba(48, 49, 49, 0.2) 0px 8px 24px;
   cursor: pointer;
@@ -350,13 +350,13 @@ header.sticky {
 
 /* Recent project section css */
 .recent-project {
-  background-color: rgb(2, 36, 2);
+  background: radial-gradient(rgb(55, 175, 225), black);
 }
 .project-top {
   text-align: center;
 }
 .project-top h5 {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
   font-size: 22px;
   font-weight: 700;
   text-transform: capitalize;
@@ -370,7 +370,7 @@ header.sticky {
   margin-bottom: 40px;
 }
 .project-top h2 span {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
 }
 
 .project-list {
@@ -382,19 +382,19 @@ header.sticky {
   text-transform: capitalize;
   font-weight: 400;
   margin-right: 20px;
-  border: 1px solid greenyellow;
+  border: 1px solid rgb(76, 88, 91);
   padding: 5px 15px;
   border-radius: 10px;
   transition: all 0.42s;
 }
 .project-list .active {
-  border: 1px solid greenyellow;
+  border: 1px solid rgb(76, 88, 91);
   padding: 5px 15px;
   border-radius: 10px;
 }
 .project-list a:hover {
-  border: 1px solid greenyellow;
-  background: greenyellow;
+  border: 1px solid rgb(76, 88, 91);
+  background: rgb(76, 88, 91);
 }
 .main-project {
   display: grid;
@@ -429,10 +429,10 @@ header.sticky {
 
 /* client review section css */
 .client-say {
-  background-color: rgb(2, 36, 2);
+  background: radial-gradient(rgb(55, 175, 225), black);
 }
 .client-top h5 {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
   font-size: 22px;
   font-weight: 700;
   text-transform: capitalize;
@@ -448,7 +448,7 @@ header.sticky {
   text-align: center;
 }
 .client-top h2 span {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
 }
 .client-detls {
   display: inline-flex;
@@ -505,7 +505,7 @@ header.sticky {
   margin-bottom: 20px;
 }
 .test-btm h4 {
-  color: greenyellow;
+  color: rgb(76, 88, 91);
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 700px;
@@ -520,7 +520,7 @@ header.sticky {
 
 /* contact section css */
 .contact {
-  background-color: rgb(2, 36, 2);
+  background: radial-gradient(rgb(55, 175, 225), black);
 }
 .cont-top h2 {
   color: white;
@@ -531,7 +531,7 @@ header.sticky {
   margin-bottom: 20px;
 }
 .cont-top h2 span {
-  color: greenyellow;
+  color: rgb(55, 175, 225);
 }
 .cont-top p {
   color: white;
@@ -559,7 +559,7 @@ form .cont-input input {
   border-radius: 10px;
   border: none;
   caret-color: white;
-  border: 2px solid greenyellow;
+  border: 2px solid rgb(55, 175, 225);
   outline: none;
   color: white;
 }
@@ -574,7 +574,7 @@ form textarea {
   padding: 20px 20px;
   font-size: 16px;
   resize: none;
-  border: 2px solid greenyellow;
+  border: 2px solid rgb(76, 88, 91);
   border-radius: 10px;
   outline: none;
   background-color: transparent;
@@ -590,8 +590,8 @@ textarea:valid {
   color: white;
   font-size: 20px;
   padding: 12px 50px;
-  background-color: greenyellow;
-  border: 2px solid greenyellow;
+  background-color: rgb(55, 175, 225);
+  border: 2px solid rgb(76, 88, 91);
   border-radius: 30px;
   letter-spacing: 0.5px;
   margin-top: 40px;
@@ -600,7 +600,7 @@ textarea:valid {
 }
 .sub:hover {
   background-color: transparent;
-  color: greenyellow;
+  color: rgb(76, 88, 91);
 }
 
 /* footer section css */
@@ -626,7 +626,7 @@ textarea:valid {
   transition: all 0.42s;
 }
 .footer-li:hover {
-  color: greenyellow;
+  color: rgb(76, 88, 91);
 }
 .main-footer p {
   color: white;
