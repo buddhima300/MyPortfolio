@@ -426,6 +426,9 @@ header.sticky {
 .project:hover img {
   transform: scale(1.1);
 }
+#flex-img {
+  display: flex;
+}
 
 /* client review section css */
 .client-say {
