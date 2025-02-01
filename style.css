@@ -19,6 +19,7 @@ header {
   justify-content: space-between;
   padding: 25px 12%;
 }
+
 .logo {
   max-width: 100%;
   width: 160px;
@@ -86,13 +87,41 @@ section {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(image/banner.png);
+  background-image: url(image/banner3.png);
   background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
+}
+.background-clip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.pro-card-section {
+  display: block;
+  margin-bottom: 100px;
+}
+.profile-cards {
+  position: relative;
+  padding: 1cm 2cm;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+}
+
+.profile-cards:hover {
+  box-shadow: rgba(255, 255, 255, 0.74) 0px 3px 8px;
+  transform: scale(1.1);
+}
+.profile-cards h2 {
+  color: white;
+  text-align: center;
 }
 
 .home-img img {
@@ -188,7 +217,7 @@ section {
   overflow: hidden;
   white-space: nowrap;
   padding: 20px 0px;
-  background: linear-gradient(0deg, black 0%, rgb(55, 175, 225) 100%);
+  background-image: url(image/banner.png);
 }
 .infinite:hover .infi-logo {
   animation-play-state: paused;
@@ -224,7 +253,7 @@ header.sticky {
 
 /* about section css */
 .about {
-  background: radial-gradient(rgb(55, 175, 225), black);
+  background-image: url(image/banner3.png);
 }
 .main-about {
   display: grid;
@@ -288,7 +317,10 @@ header.sticky {
 
 /* expert area css */
 .areas {
-  background: radial-gradient(rgb(55, 175, 225), black);
+  background-image: url(image/banner2.png);
+}
+.areas2 {
+  background-image: url(image/banner.png);
 }
 .areas-top h1 {
   color: white;
@@ -328,7 +360,12 @@ header.sticky {
   filter: none;
   text-align: center;
   padding: 30px 50px;
-  background: rgb(76, 88, 91);
+  /* background: rgb(76, 88, 91); */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 15px;
   box-shadow: rgba(48, 49, 49, 0.2) 0px 8px 24px;
   cursor: pointer;
@@ -350,7 +387,7 @@ header.sticky {
 
 /* Recent project section css */
 .recent-project {
-  background: radial-gradient(rgb(55, 175, 225), black);
+  background-image: url(image/banner3.png);
 }
 .project-top {
   text-align: center;
@@ -432,7 +469,7 @@ header.sticky {
 
 /* client review section css */
 .client-say {
-  background: radial-gradient(rgb(55, 175, 225), black);
+  background-image: url(image/banner.png);
 }
 .client-top h5 {
   color: rgb(55, 175, 225);
@@ -463,14 +500,18 @@ header.sticky {
   position: relative;
   padding: 20px 20px;
   border-radius: 10px;
-  background-color: rgb(1, 24, 1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   cursor: pointer;
   box-shadow: rgba(48, 49, 49, 0.2) 0px 8px 24px;
   transition: all 0.42s;
   width: 300px;
 }
 .test-card:hover {
-  box-shadow: rgba(81, 255, 0, 0.74) 0px 3px 8px;
+  box-shadow: rgba(255, 255, 255, 0.74) 0px 3px 8px;
 }
 .test-top {
   display: flex;
@@ -508,7 +549,7 @@ header.sticky {
   margin-bottom: 20px;
 }
 .test-btm h4 {
-  color: rgb(76, 88, 91);
+  color: rgb(255, 255, 255);
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 700px;
@@ -523,7 +564,14 @@ header.sticky {
 
 /* contact section css */
 .contact {
-  background: radial-gradient(rgb(55, 175, 225), black);
+  background-image: url(image/banner3.png);
+}
+.main-cont {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .cont-top h2 {
   color: white;

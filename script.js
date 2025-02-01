@@ -1,9 +1,9 @@
 var typed = new Typed(".input", {
   strings: [
-    "FullStack Developer",
-    "Content Creator",
+    "Frontend Developer",
     "UI/UX Designer",
-    "Graphic Designer",
+    "Backend Developer",
+    "Quick Learner",
   ],
   typeSpeed: 70,
   backSpeed: 60,
