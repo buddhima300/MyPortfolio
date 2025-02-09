@@ -87,7 +87,7 @@ section {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(image/banner3.png);
+  background-image: url(image/banner4.png);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -262,8 +262,9 @@ header.sticky {
 }
 .about-img img {
   max-width: 100%;
-  width: 430px;
+  width: 550px;
   height: auto;
+  border-radius: 25px;
 }
 
 .about-text h5 {
@@ -465,6 +466,12 @@ header.sticky {
 }
 #flex-img {
   display: flex;
+}
+#flex-img2 {
+  display: grid;
+}
+#flex-img2 img {
+  margin-top: 10px;
 }
 
 /* client review section css */
