@@ -97,8 +97,10 @@ section {
 }
 .background-clip {
   position: relative;
-  width: 100%;
+  width: 50%;
   height: 100%;
+  border-radius: 20px;
+  margin-left: 2%;
 }
 .pro-card-section {
   display: block;
@@ -231,7 +233,7 @@ section {
 .infi-logo {
   display: inline-block;
   white-space: nowrap;
-  animation: 30s slide infinite linear;
+  animation: 60s slide infinite linear;
 }
 
 @keyframes slide {
@@ -239,7 +241,7 @@ section {
     transform: translateX(0%);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-200%);
   }
 }
 
